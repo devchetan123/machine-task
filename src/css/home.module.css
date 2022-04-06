@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+.mainDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    width: 90%;
+}
+
+.mainDiv > div{
+    margin: auto;
+    text-align: left;
+    height: 100vh;
+}
+
+.mainDiv > div h3{
+    margin-bottom: -15px;
+}
+.errorBox{
+    background-color: rgb(246,97,54);
+    position: relative;
+    height: 5vw;
+    width: 25vw;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.errorBox button {
+    position:absolute;
+    background-color: transparent;
+    border: none;
+    bottom: 5px;
+    cursor: pointer;
+    right: 10px;
+}
+
+.warningBox{
+    background-color: rgb(251,231,136);
+    position: relative;
+    height: 5vw;
+    width: 25vw;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.warningBox button{
+    position:absolute;
+    background-color: transparent;
+    border: none;
+    bottom: 5px;
+    cursor: pointer;
+    right: 10px;
+}
+
+
+.infoBox{
+    background-color: rgb(136,252,163);
+    position: relative;
+    height: 5vw;
+    width: 25vw;
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+.infoBox button{
+    position:absolute;
+    background-color: transparent;
+    border: none;
+    bottom: 5px;
+    cursor: pointer;
+    right: 10px;
+}
+
+.inputSection{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputBox{
+    border: 2px solid rgb(98, 0, 255);
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.selectBox{
+    margin-left: 5px;
+    border: 2px solid rgb(98, 0, 255);
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.submitBtn{
+    border: 2px solid rgb(98, 0, 255);
+    margin-left: 5px;
+    background-color: transparent;
+    color: rgb(98, 0, 255);
+    padding: 7.5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
